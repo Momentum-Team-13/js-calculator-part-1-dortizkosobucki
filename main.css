@@ -6,12 +6,15 @@ body {
 .container {
     height: 1200px;
     width: 1000px;
-    background-color: blue;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    align-items: space-between;
+    justify-content: space-around;
+    /* padding: 20px; */
     margin: 0;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+
 }
 
 /* button:active {
@@ -21,12 +24,15 @@ body {
 
 button:hover {
     background-color: black;
-    font-size: 50px;
+    font-size: 100px;
     color: white;
 }
 
 button {
     background-color: aqua;
+    border-radius: 20px;
+    border: 2px;
+    padding: 20px;
 }
 
 .button {
@@ -35,11 +41,16 @@ button {
     border: 2px solid black;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-    font-size: 50px;
+    justify-content: space-around;
+    font: 100px white bold;
+    background-color: rgba(255, 255, 255, 0.794);
+}
+
+.num {
+    background-image: url(/wesley-tingey-9-OCsKoyQlk-unsplash.jpg);
+
+
 }
 
 .operation {
@@ -48,5 +59,5 @@ button {
 
 .display {
     width: 75%;
-    background-color: antiquewhite;
+    background-color: rgb(249, 249, 167);
 }

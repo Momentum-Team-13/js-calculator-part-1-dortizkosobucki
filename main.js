@@ -1,6 +1,6 @@
-// const { speedOfLightDependencies } = require("mathjs");
+//problems to fix
+//play with CSS
 
-// const math = require("mathjs");
 
 //definitions
 let numberArr = document.querySelectorAll('.button');
@@ -14,6 +14,7 @@ for (let number of numberArr) {
         console.log(number.innerText)
         if (number === equals) {
             display.innerText = math.eval(display.innerText);
+            console.log(display.innerText);
         } else {
             display.innerText += event.target.textContent;
         }
